@@ -35,5 +35,5 @@ To continuously sharpen my skills, I designed, built, and currently maintain a s
 ---
 
 ## 📫 Let's Connect
-* LinkedIn : https://www.linkedin.com/in/pratik-nakarmi-977938b5/
+* LinkedIn: https://www.linkedin.com/in/pratik-nakarmi-977938b5/
 * Email: pratiknkrm@gmail.com
