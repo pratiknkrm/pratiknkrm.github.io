@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # pratiknkrm.github.io
 # Pratik | System Administrator & Business Analyst
 **Bridging the gap between daily IT operations and secure, enterprise-level infrastructure.**
