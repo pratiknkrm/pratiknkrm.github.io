@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my expertise in IT Infrastruct
 
 ## 🚀 Live Demo
 
-Visit the live site: `https://yourusername.github.io/portfolio-website`
+Visit the live site: `https://pratiknkrm.github.io
 
 ## 🛠️ Built With
 
