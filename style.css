@@ -23,9 +23,11 @@
     --bg-card: #1a1f3a;           /* Card backgrounds */
     
     /* Accent colors */
-    --accent-primary: #00d9ff;    /* Cyan - main accent */
-    --accent-secondary: #7b2ff7;  /* Purple - secondary accent */
-    --accent-gradient: linear-gradient(135deg, #00d9ff 0%, #7b2ff7 100%);
+    
+--accent-primary: #096b90;
+  --accent-secondary: #a1ccdc;
+  --accent-gradient: linear-gradient(135deg, #096b90 0%, #a1ccdc 100%);
+
     
     /* Text colors */
     --text-primary: #e4e4e7;      /* Almost white */
