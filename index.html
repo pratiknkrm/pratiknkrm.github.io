@@ -1,56 +1,272 @@
-</> Pratik Nakarmi
-About
-Resume
-Projects
-Contact
-$ |
-IT Infrastructure Services Specialist
-Systems Architecture • Network Security • Business Analysis
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Nakarmi | IT Infrastructure Specialist</title>
+    
+    <!-- This links to our custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for icons (networking, server icons, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar - Sticky at the top -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Your name/logo on the left -->
+            <div class="nav-brand">
+                <span class="brand-icon">&lt;/&gt;</span>
+                <span class="brand-name">Pratik Nakarmi</span>
+            </div>
+            
+            <!-- Navigation links on the right -->
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile menu toggle (hamburger icon) -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-View Projects Download Resume
-// Introduction
-About Me
-I am an IT professional with a strong foundation in managing enterprise desktop environments and daily IT operations. Currently, I am expanding my focus into Systems Architecture, Network Security, and Business Analysis. I thrive on translating business requirements into secure, automated technical solutions.
+    <!-- Hero Section - First thing visitors see -->
+    <section class="hero">
+        <div class="container">
+            <!-- Animated background effect -->
+            <div class="hero-background">
+                <div class="grid-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <!-- Terminal-style greeting animation -->
+                <div class="terminal-text">
+                    <span class="prompt">$</span>
+                    <span class="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    IT Infrastructure Services Specialist
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Systems Architecture • Network Security • Business Analysis
+                </p>
+                
+                <!-- Call-to-action buttons -->
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="assets/resume.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-// Skills
-Core Competencies
-Infrastructure
-▹ Proxmox VE (Type-1 Hypervisor)
-▹ Server Virtualization
-▹ Linux (Ubuntu/LXC)
-Identity & Access Management
-▹ Windows Server
-▹ Active Directory (AD DS)
-▹ Group Policy Object (GPO) Deployment
-▹ Least Privilege Modeling
-Networking & Security
-▹ OPNsense
-▹ VLAN Segmentation (Lobby vs. Vault networks)
-▹ Firewall Routing
-▹ Network Address Translation (NAT)
-Business Analysis
-▹ Technical Documentation
-▹ Vendor/Hardware Management
-▹ Process Optimization
-// Showcase
-Featured Project
-Enterprise Hybrid Lab Environment
-A secure, segmented enterprise lab environment designed to sharpen skills in network architecture, identity management, and Linux administration.
+    <!-- About Me Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Introduction</span>
+                <h2 class="section-title">
+                    <i class="fas fa-user-circle"></i> About Me
+                </h2>
+            </div>
+            
+            <div class="about-content">
+                <!-- Profile card with glowing border effect -->
+                <div class="profile-card">
+                    <div class="profile-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <p class="about-text">
+                        I am an IT professional with a strong foundation in managing enterprise desktop environments and daily IT operations. Currently, I am expanding my focus into <strong>Systems Architecture</strong>, <strong>Network Security</strong>, and <strong>Business Analysis</strong>. I thrive on translating business requirements into secure, automated technical solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-01
-Network Architecture & Security
-Deployed OPNsense as a virtualized enterprise firewall to manage traffic between untrusted physical networks and secure virtual environments.
-Engineered secure VLANs (e.g., VLAN 99) to isolate critical infrastructure from standard user traffic, simulating a Zero-Trust network approach.
-02
-Identity & Access Management (Active Directory)
-Provisioned a Windows Server Domain Controller (corp.local) with static IP addressing and internal DNS routing.
-Designed an Organizational Unit (OU) hierarchy separating standard users from privileged admin accounts.
-Implemented Group Policy (GPO) to enforce security baselines, including mandatory legal login banners across the domain.
-03
-Linux Web Services
-Deployed lightweight Ubuntu LXC containers to host internal services with minimal resource overhead.
-Configured an Nginx web server, successfully troubleshooting DNS resolution and package daemon failures during deployment.
-View All Projects
-© 2026 Pratik Nakarmi. Built with and
+    <!-- Core Competencies Section -->
+    <section class="competencies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Skills</span>
+                <h2 class="section-title">
+                    <i class="fas fa-tools"></i> Core Competencies
+                </h2>
+            </div>
+            
+            <!-- Grid of skill cards with hover effects -->
+            <div class="competencies-grid">
+                
+                <!-- Infrastructure Card -->
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="card-title">Infrastructure</h3>
+                    <ul class="card-list">
+                        <li><span class="bullet">▹</span> Proxmox VE (Type-1 Hypervisor)</li>
+                        <li><span class="bullet">▹</span> Server Virtualization</li>
+                        <li><span class="bullet">▹</span> Linux (Ubuntu/LXC)</li>
+                    </ul>
+                </div>
 
-https://github.com/pratiknkrm https://linkedin.com/in/yourprofile
+                <!-- Identity & Access Management Card -->
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="card-title">Identity & Access Management</h3>
+                    <ul class="card-list">
+                        <li><span class="bullet">▹</span> Windows Server</li>
+                        <li><span class="bullet">▹</span> Active Directory (AD DS)</li>
+                        <li><span class="bullet">▹</span> Group Policy Object (GPO) Deployment</li>
+                        <li><span class="bullet">▹</span> Least Privilege Modeling</li>
+                    </ul>
+                </div>
+
+                <!-- Networking & Security Card -->
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="card-title">Networking & Security</h3>
+                    <ul class="card-list">
+                        <li><span class="bullet">▹</span> OPNsense</li>
+                        <li><span class="bullet">▹</span> VLAN Segmentation (Lobby vs. Vault networks)</li>
+                        <li><span class="bullet">▹</span> Firewall Routing</li>
+                        <li><span class="bullet">▹</span> Network Address Translation (NAT)</li>
+                    </ul>
+                </div>
+
+                <!-- Business Analysis Card -->
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="card-title">Business Analysis</h3>
+                    <ul class="card-list">
+                        <li><span class="bullet">▹</span> Technical Documentation</li>
+                        <li><span class="bullet">▹</span> Vendor/Hardware Management</li>
+                        <li><span class="bullet">▹</span> Process Optimization</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section class="featured-project">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Showcase</span>
+                <h2 class="section-title">
+                    <i class="fas fa-rocket"></i> Featured Project
+                </h2>
+            </div>
+
+            <!-- Main project card -->
+            <div class="project-showcase">
+                <div class="project-header">
+                    <h3 class="project-title">Enterprise Hybrid Lab Environment</h3>
+                    <p class="project-subtitle">
+                        A secure, segmented enterprise lab environment designed to sharpen skills in network architecture, identity management, and Linux administration.
+                    </p>
+                </div>
+
+                <!-- Three detailed subsections -->
+                <div class="project-details">
+                    
+                    <!-- Network Architecture -->
+                    <div class="detail-card">
+                        <div class="detail-number">01</div>
+                        <div class="detail-content">
+                            <h4 class="detail-title">
+                                <i class="fas fa-sitemap"></i> Network Architecture & Security
+                            </h4>
+                            <ul class="detail-list">
+                                <li>Deployed <strong>OPNsense</strong> as a virtualized enterprise firewall to manage traffic between untrusted physical networks and secure virtual environments.</li>
+                                <li>Engineered secure <strong>VLANs</strong> (e.g., VLAN 99) to isolate critical infrastructure from standard user traffic, simulating a <strong>Zero-Trust</strong> network approach.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Active Directory -->
+                    <div class="detail-card">
+                        <div class="detail-number">02</div>
+                        <div class="detail-content">
+                            <h4 class="detail-title">
+                                <i class="fas fa-users-cog"></i> Identity & Access Management (Active Directory)
+                            </h4>
+                            <ul class="detail-list">
+                                <li>Provisioned a <strong>Windows Server Domain Controller</strong> (corp.local) with static IP addressing and internal DNS routing.</li>
+                                <li>Designed an <strong>Organizational Unit (OU)</strong> hierarchy separating standard users from privileged admin accounts.</li>
+                                <li>Implemented <strong>Group Policy (GPO)</strong> to enforce security baselines, including mandatory legal login banners across the domain.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Linux Web Services -->
+                    <div class="detail-card">
+                        <div class="detail-number">03</div>
+                        <div class="detail-content">
+                            <h4 class="detail-title">
+                                <i class="fab fa-linux"></i> Linux Web Services
+                            </h4>
+                            <ul class="detail-list">
+                                <li>Deployed lightweight <strong>Ubuntu LXC containers</strong> to host internal services with minimal resource overhead.</li>
+                                <li>Configured an <strong>Nginx web server</strong>, successfully troubleshooting DNS resolution and package daemon failures during deployment.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Link to more projects -->
+                <div class="project-cta">
+                    <a href="projects.html" class="btn btn-outline">
+                        View All Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                &copy; 2026 Pratik Nakarmi. Built with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>
+            </p>
+            <div class="footer-links">
+                https://github.com/yourusername
+                https://linkedin.com/in/yourprofile
+                <a href="mailto:your.email@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
