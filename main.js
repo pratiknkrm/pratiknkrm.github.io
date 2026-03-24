@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     "nmap -sV 10.0.0.1",
     "ssh admin@corp.local",
     "sudo systemctl restart nginx"
+    "Hello World!"
   ];
 
   let commandIndex = 0;
