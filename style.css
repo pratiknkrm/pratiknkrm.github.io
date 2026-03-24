@@ -24,9 +24,9 @@
     
     /* Accent colors */
     
---accent-primary: #096b90;
+--accent-primary: #71B7D5;
   --accent-secondary: #a1ccdc;
-  --accent-gradient: linear-gradient(135deg, #096b90 0%, #a1ccdc 100%);
+  --accent-gradient: linear-gradient(135deg, #71B7D5 0%, #a1ccdc 100%);
 
     
     /* Text colors */
