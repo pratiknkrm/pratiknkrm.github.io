@@ -1,11 +1,22 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/html/index.html" />
-    <title>Redirecting…</title>
-  </head>
-  <body>
-    Redirecting… <a href="/html/index.html">Click here</a>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Instant redirect (works even if JS is disabled) -->
+  <meta http-equiv="refresh" content="0; url=/html/index.html" />
+
+  <title>Redirecting…</title>
+
+  <!-- Fast redirect + avoids adding this page to browser history -->
+  <script>
+    window.location.replace("/html/index.html");
+  </script>
+</head>
+<body>
+  <!-- Optional fallback content (usually never seen) -->
+  <noscript>
+    <p>Redirecting to <a href="/html/index.html">/html/index.html</a>…</p>
+  </noscript>
+</body>
 </html>
