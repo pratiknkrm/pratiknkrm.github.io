@@ -1327,6 +1327,96 @@ section {
     transform: scale(1.1);
 }
 
+/* === Certifications Page Styles === */
+
+.certifications-section {
+  padding: var(--spacing-xl) 0;
+}
+
+/* Carousel container */
+.cert-slider {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;  /* Hide overflowing slides */
+}
+
+/* Individual slides */
+.cert-slide {
+  display: none;  /* Hide all slides by default */
+  text-align: center;
+  padding: var(--spacing-md);
+  background: var(--bg-card);
+  border: 1px solid rgba(0, 217, 255, 0.1);
+  border-radius: var(--radius-md);
+}
+.cert-slide:first-child {
+  display: block;  /* Show first slide initially */
+}
+
+/* Certification image */
+.cert-slide img {
+  max-width: 100%;
+  max-height: 300px;
+  border: 2px solid rgba(0, 217, 255, 0.3);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Slide text details */
+.slide-details {
+  color: var(--text-secondary);
+}
+.cert-title {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+.cert-issuer, .cert-date {
+  font-size: 0.95rem;
+  margin: 0.2rem 0;
+}
+.cert-verify a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+.cert-verify a:hover {
+  color: var(--accent-secondary);
+}
+
+/* Carousel navigation buttons */
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 217, 255, 0.1);
+  border: 2px solid var(--accent-primary);
+  color: var(--accent-primary);
+  font-size: 1.5rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.slider-nav:hover {
+  background: var(--accent-primary);
+  color: #fff;
+}
+.slider-nav.prev { left: 10px; }
+.slider-nav.next { right: 10px; }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .cert-slide img {
+    max-height: 180px;
+  }
+  .slider-nav {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.5rem;
+  }
+}
+
 /* ========================================
    RESPONSIVE
    ======================================== */
