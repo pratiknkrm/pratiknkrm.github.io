@@ -3,30 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratik Nakarmi | IT Infrastructure Specialist</title>
+    <title>Pratik Nakarmi | Business Technology Analyst</title>
     
-    <!-- This links to our custom stylesheet -->
+    <!-- Custom stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     
-    <!-- Font Awesome for icons (networking, server icons, etc.) -->
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Google Fonts for a modern, clean look -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
- <link rel="stylesheet" href="../css/style.css">
- <script src="../Js/main.js"></script>
-    <body>
-    <!-- Navigation Bar - Sticky at the top -->
+<body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container">
-            <!-- Your name/logo on the left -->
             <div class="nav-brand">
                 <span class="brand-icon">&lt;/&gt;</span>
                 <span class="brand-name">Pratik Nakarmi</span>
             </div>
             
-            <!-- Navigation links on the right -->
             <ul class="nav-links">
                 <li><a href="/html/index.html" class="active">About</a></li>
                 <li><a href="/html/resume.html">Resume</a></li>
@@ -35,7 +31,6 @@
                 <li><a href="/html/contact.html">Contact</a></li>
             </ul>
             
-            <!-- Mobile menu toggle (hamburger icon) -->
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -44,16 +39,14 @@
         </div>
     </nav>
 
-    <!-- Hero Section - First thing visitors see -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <!-- Animated background effect -->
             <div class="hero-background">
                 <div class="grid-overlay"></div>
             </div>
             
             <div class="hero-content">
-                <!-- Terminal-style greeting animation -->
                 <div class="terminal-text">
                     <span class="prompt">$</span>
                     <span class="typed-text"></span>
@@ -61,14 +54,13 @@
                 </div>
                 
                 <h1 class="hero-title">
-                    IT Infrastructure Services Specialist
+                    Business Technology Analyst & Technical Lead
                 </h1>
                 
                 <p class="hero-subtitle">
-                    Systems Architecture • Network Security • Business Analysis
+                    Systems Architecture • Zero-Trust Security • Automation • Business Analysis
                 </p>
                 
-                <!-- Call-to-action buttons -->
                 <div class="hero-buttons">
                     <a href="projects.html" class="btn btn-primary">
                         <i class="fas fa-code"></i> View Projects
@@ -92,7 +84,6 @@
             </div>
             
             <div class="about-content">
-                <!-- Profile card with glowing border effect -->
                 <div class="profile-card">
                     <div class="profile-icon">
                         <i class="fas fa-terminal"></i>
@@ -115,7 +106,6 @@
                 </h2>
             </div>
             
-            <!-- Grid of skill cards with hover effects -->
             <div class="competencies-grid">
                 
                 <!-- Infrastructure Card -->
@@ -127,7 +117,7 @@
                     <ul class="card-list">
                         <li><span class="bullet">▹</span> Proxmox VE (Type-1 Hypervisor)</li>
                         <li><span class="bullet">▹</span> Server Virtualization</li>
-                        <li><span class="bullet">▹</span> Linux (Ubuntu/LXC)</li>
+                        <li><span class="bullet">▹</span> Linux (Ubuntu/Debian LXC)</li>
                     </ul>
                 </div>
 
@@ -136,10 +126,9 @@
                     <div class="card-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3 class="card-title">Identity & Access Management</h3>
+                    <h3 class="card-title">Identity & Access</h3>
                     <ul class="card-list">
-                        <li><span class="bullet">▹</span> Windows Server</li>
-                        <li><span class="bullet">▹</span> Active Directory (AD DS)</li>
+                        <li><span class="bullet">▹</span> Windows Server & AD DS</li>
                         <li><span class="bullet">▹</span> Group Policy Object (GPO) Deployment</li>
                         <li><span class="bullet">▹</span> Least Privilege Modeling</li>
                     </ul>
@@ -150,12 +139,25 @@
                     <div class="card-icon">
                         <i class="fas fa-network-wired"></i>
                     </div>
-                    <h3 class="card-title">Networking & Security</h3>
+                    <h3 class="card-title">Zero-Trust & Security</h3>
                     <ul class="card-list">
-                        <li><span class="bullet">▹</span> OPNsense</li>
-                        <li><span class="bullet">▹</span> VLAN Segmentation (Lobby vs. Vault networks)</li>
-                        <li><span class="bullet">▹</span> Firewall Routing</li>
-                        <li><span class="bullet">▹</span> Network Address Translation (NAT)</li>
+                        <li><span class="bullet">▹</span> Zero-Trust Network Access (ZTNA)</li>
+                        <li><span class="bullet">▹</span> WireGuard & Tailscale Meshes</li>
+                        <li><span class="bullet">▹</span> OPNsense & VLAN Segmentation</li>
+                        <li><span class="bullet">▹</span> Cryptographic Certificates (SSL/TLS)</li>
+                    </ul>
+                </div>
+                
+                <!-- Automation & AI Card -->
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="card-title">Automation & AI Pipelines</h3>
+                    <ul class="card-list">
+                        <li><span class="bullet">▹</span> Python Scripting</li>
+                        <li><span class="bullet">▹</span> Local LLM Implementations (Ollama)</li>
+                        <li><span class="bullet">▹</span> Audio Processing (Faster-Whisper)</li>
                     </ul>
                 </div>
 
@@ -189,61 +191,59 @@
             <!-- Main project card -->
             <div class="project-showcase">
                 <div class="project-header">
-                    <h3 class="project-title">Enterprise Hybrid Lab Environment</h3>
+                    <h3 class="project-title">Zero-Trust Secrets Management Infrastructure</h3>
                     <p class="project-subtitle">
-                        A secure, segmented enterprise lab environment designed to sharpen skills in network architecture, identity management, and Linux administration.
+                        A self-hosted, zero-knowledge enterprise password management environment routed through a strictly authenticated zero-trust network access (ZTNA) mesh.
                     </p>
                 </div>
 
                 <!-- Three detailed subsections -->
                 <div class="project-details">
                     
-                    <!-- Network Architecture -->
+                    <!-- ZTNA -->
                     <div class="detail-card">
                         <div class="detail-number">01</div>
                         <div class="detail-content">
                             <h4 class="detail-title">
-                                <i class="fas fa-sitemap"></i> Network Architecture & Security
+                                <i class="fas fa-lock"></i> Zero-Trust Network Access (ZTNA)
                             </h4>
                             <ul class="detail-list">
-                                <li>Deployed <strong>OPNsense</strong> as a virtualized enterprise firewall to manage traffic between untrusted physical networks and secure virtual environments.</li>
-                                <li>Engineered secure <strong>VLANs</strong> (e.g., VLAN 99) to isolate critical infrastructure from standard user traffic, simulating a <strong>Zero-Trust</strong> network approach.</li>
+                                <li>Bypassed traditional NAT and port-forwarding vulnerabilities by routing all traffic through a private <strong>Tailscale VPN mesh</strong>.</li>
+                                <li>Enforced strict identity access controls by modifying environment variables to lock vault registration exclusively to the master administrator.</li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Active Directory -->
+                    <!-- Cryptography -->
                     <div class="detail-card">
                         <div class="detail-number">02</div>
                         <div class="detail-content">
                             <h4 class="detail-title">
-                                <i class="fas fa-users-cog"></i> Identity & Access Management (Active Directory)
+                                <i class="fas fa-certificate"></i> Cryptographic Security
                             </h4>
                             <ul class="detail-list">
-                                <li>Provisioned a <strong>Windows Server Domain Controller</strong> (corp.local) with static IP addressing and internal DNS routing.</li>
-                                <li>Designed an <strong>Organizational Unit (OU)</strong> hierarchy separating standard users from privileged admin accounts.</li>
-                                <li>Implemented <strong>Group Policy (GPO)</strong> to enforce security baselines, including mandatory legal login banners across the domain.</li>
+                                <li>Satisfied modern Web Crypto API requirements by implementing automated <strong>Let's Encrypt SSL certificates</strong> tied to Tailscale MagicDNS.</li>
+                                <li>Resolved severe IPv4/IPv6 cryptographic handshake conflicts by mapping TLS backends directly to explicit loopback addresses.</li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Linux Web Services -->
+                    <!-- Containers -->
                     <div class="detail-card">
                         <div class="detail-number">03</div>
                         <div class="detail-content">
                             <h4 class="detail-title">
-                                <i class="fab fa-linux"></i> Linux Web Services
+                                <i class="fab fa-linux"></i> Containerized Architecture
                             </h4>
                             <ul class="detail-list">
-                                <li>Deployed lightweight <strong>Ubuntu LXC containers</strong> to host internal services with minimal resource overhead.</li>
-                                <li>Configured an <strong>Nginx web server</strong>, successfully troubleshooting DNS resolution and package daemon failures during deployment.</li>
+                                <li>Deployed Vaultwarden and SQLite via an unprivileged <strong>Proxmox Debian LXC container</strong> for strict resource isolation.</li>
+                                <li>Engineered secure network routing by passing the hypervisor's <code>/dev/net/tun</code> device directly through to the container OS.</li>
                             </ul>
                         </div>
                     </div>
 
                 </div>
 
-                <!-- Link to more projects -->
                 <div class="project-cta">
                     <a href="/html/projects.html" class="btn btn-outline">
                         View All Projects <i class="fas fa-arrow-right"></i>
